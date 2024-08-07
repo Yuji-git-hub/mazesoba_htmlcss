@@ -1,0 +1,265 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+body {
+    line-height: 1.7;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.bottom-red {
+    border-bottom: 2px solid red;
+}
+
+/* ヘッダー部分 */
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 1.5rem;
+    align-items: center;
+}
+
+
+.bg-color {
+    background-color: orange;
+}
+
+.page-title {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 10rem;
+    line-height: 1.4;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+header a {
+    color: black;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.cover {
+    background-size: cover;
+    background-position: top;
+    height: 800px;
+}
+
+.cover-img {
+    background-image: url(../images/top-img.jpeg);
+
+}
+
+
+/* ナブの部分 */
+nav {
+    text-decoration: none;
+    font-size: 20px;
+    /* padding-top: 20px; */
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    font-size: 1.3rem;
+    list-style: none;
+    color: black;
+}
+
+.main-nav a:hover {
+    color: green    ;
+}
+
+/* メイン部分 */
+
+a#circle {
+    display: block;
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+    border-radius: 50%;
+    border: 1px solid blue;
+    text-decoration: none;
+    line-height: 50px;
+    background-color: orange;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    text-align: center;
+}
+
+/* about */
+.about-title {
+    font-size: 3rem;
+    width: 390px;
+    margin-bottom: 5rem;
+}
+
+.about-sub-title {
+    margin-bottom: 6rem;
+}
+
+.about-sub-title h4 {
+    font-size: 2.5rem;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+
+.right {
+    text-align: right;
+}
+
+.about-img {
+    width: 300px;
+    height: 200px;
+}
+
+/* method */
+.method-title {
+    text-align: center;
+    font-size: 60px;
+    margin: 50px 0;
+}
+
+.method {
+    font-size: 35px;
+    width: 250px;
+}
+
+.bottom-red-long {
+    border-bottom: 2px solid red;
+    width: 350px;
+}
+
+.mazeru {
+    width: 400px;
+    height: 250px;
+}
+/* reco */
+.reco-img {
+    width: 400px;
+    height: 300px;
+}
+
+.reco-section {
+    margin-bottom: 70px;
+}
+
+.reco-title {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 80px;
+}
+
+.reco-shop {
+    margin: 30px 0;
+    font-size: 30px;
+}
+
+.reco-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* contact */
+.contact-title {
+    margin-bottom: 70px;
+    color: darkviolet;
+}
+
+input {
+    border: solid 1px black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.name {
+    width: 100%;
+    max-width: 240px;
+    margin-bottom: 50px;
+}
+
+.mail {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 50px;
+}
+
+.text {
+    width: 100%;
+    max-width: 700px;
+    height: 8rem;
+}
+
+.submit {
+    width: 100%;
+    max-width: 50px;
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* フッター部分 */
+footer {
+    background-color: orange;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (min-width: 1000px) {
+    /* header部分 */
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-nav {
+        font-size: 2rem;
+    }
+
+    .page-title {
+        font-size: 5rem;
+    }
+
+    /* フッター部分 */
+    footer {
+        font-size: 1.5rem;
+        height: 3rem;
+    }
+
+}
